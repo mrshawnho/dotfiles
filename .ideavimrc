@@ -1,0 +1,35 @@
+set history=100
+set scrolljump=1
+set scrolloff=6
+set whichwrap=b,s,h,l,<,>,[,]
+set backspace=indent,eol,start
+set showmatch
+set matchtime=1
+set matchpairs+=<:>
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set clipboard=unnamed
+
+noremap 0 ^
+noremap j gj
+noremap k gk
+noremap Y y$
+noremap <space> :
+
+nnoremap ,o o<esc>
+nnoremap ,O O<esc>
+nnoremap ,w :w!<cr>
+nnoremap ,q :q<cr>
+nnoremap ,n :nohlsearch<cr>
+nnoremap ,rn :set relativenumber!<cr>
+
+vnoremap < <gv
+vnoremap > >gv
+vnoremap . :normal .<cr>
+
+inoremap jj <esc>
+inoremap jk <esc>
+inoremap kk <esc>
+

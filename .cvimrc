@@ -1,0 +1,15 @@
+set defaultnewtabpage
+let searchengine gg="https://www.google.com/search?q="
+let searchengine gh="https://github.com/search?q="
+let searchengine bd="https://www.baidu.com/s?wd="
+let searchengine zh="https://www.zhihu.com/search?type=content&q="
+let searchengine sf="https://segmentfault.com/search?q="
+let searchengine yd="http://dict.youdao.com/w/"
+let searchengine lc="http://man.linuxde.net/"
+let searchengine mvn="http://search.maven.org/#search%7Cga%7C1%7C"
+let defaultengine="bd"
+let completionengines=["gg", "gh", "zh", "sf"]
+let mapleader=","
+map <leader>r reloadTabUncached
+let blacklists = ["http://localhost/*","http://*.ddh.com/*"]
+
