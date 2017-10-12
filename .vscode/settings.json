@@ -11,6 +11,7 @@
     "vim.ignorecase": true,
     "vim.smartcase": true,
     "vim.easymotion": true,
+    "vim.disableAnnoyingNeovimMessage": true,
     "vim.insertModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -174,10 +175,6 @@
         "<C-w>": false,
         "<C-x>": false,
         "<C-y>": false
-    },
-    "vim.disableAnnoyingNeovimMessage": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "typescript.check.npmIsInstalled": false,
-    "workbench.editor.enablePreview": false
+    }
 }
 
