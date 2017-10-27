@@ -7,9 +7,12 @@ let searchengine sf="https://segmentfault.com/search?q="
 let searchengine yd="http://dict.youdao.com/w/"
 let searchengine lc="http://man.linuxde.net/"
 let searchengine mvn="https://mvnrepository.com/search?q="
-let defaultengine="bd"
+let defaultengine="gg"
 let completionengines=["gg", "gh", "zh", "sf"]
 let mapleader=","
 map <leader>r reloadTabUncached
-let blacklists = ["http://localhost/*","http://*.ddh.com/*"]
+map <leader>b :buffer<space>
+map <leader>x :restore<space>
+map <leader>p :togglepin<cr>
+let blacklists = ["http://localhost/*"]
 
